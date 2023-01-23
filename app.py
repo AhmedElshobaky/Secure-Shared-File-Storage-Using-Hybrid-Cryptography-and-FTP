@@ -13,6 +13,7 @@ class FileSharingApp(tk.Tk):
         self.key_path = None
         self.master_key = None
         
+
         #list of files on the server
         self.file_list = tk.Listbox(self, height= 20, width= 60, border= 0)
         self.file_list.pack()
