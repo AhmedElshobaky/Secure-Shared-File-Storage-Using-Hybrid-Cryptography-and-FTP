@@ -55,4 +55,11 @@ class FTPClient:
     def view_files(self):
         files = self.server.nlst()
         return files
+<<<<<<< HEAD
+=======
+    
+        
+    def close_connection(self):
+        self.server.quit()
+>>>>>>> 7424a06558719c83b81533ec35d7c33e7a9b2a49
 
